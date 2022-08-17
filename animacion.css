@@ -1,0 +1,250 @@
+
+body {
+
+    background-color: rgb(192, 192, 192);
+
+}
+
+
+h1 {
+    font-family: italic;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(138, 197, 255);
+    font-size: 50px;
+    color: rgb(8, 8, 9);
+    font-weight: bold;
+
+}
+
+
+.sobremi {
+    text-decoration: underline;
+    display: flex;
+    font-style: italic;
+    font-size: 30px;
+    box-shadow: 1px -5px 21px rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    background-color: rgb(138, 197, 255);
+    font-weight: bold;
+    color: rgb(1, 1, 1);
+    width: 100%;
+
+}
+
+
+.parrafo {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Edu TAS Beginner' cursive
+}
+
+input {
+    background-color: rgb(228, 228, 228);
+    color: red;
+}
+
+li {
+    font-weight: bold;
+    font-size: 12px;
+    font-size: 20px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imput {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 5px;
+
+}
+
+.encuesta {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 5px;
+
+}
+
+.padre {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.padre img {
+    border-radius: 161px 161px 161px 161px;
+}
+
+.info {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.titulo {
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(43, 129, 215);
+    font-size: 25px;
+}
+
+.info {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.caja {
+    background: #393939;
+    background: repeating-linear-gradient(134deg, #393939 0%, #929292 63%);
+    background: -webkit-repeating-linear-gradient(134deg, #393939 0%, #929292 63%);
+    background: -moz-repeating-linear-gradient(134deg, #393939 0%, #929292 63%);
+    column-gap: 20px;
+    font-weight: bold;
+    column-count: 3;
+    box-shadow: -4px -3px 80px 22px rgba(0, 0, 0, 0.75);
+    width: 800px;
+    height: 300px;
+    padding: 20px;
+    font-size: 18px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.prueba{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja2 {
+    width: 300px;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-content: center;
+    box-shadow: 14px 19px 46px 8px rgba(0, 0, 0, 0.75);
+
+
+}
+
+.contacto {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.caja3 {
+    width: 300px;
+    background-color: aqua;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-content: center;
+    box-shadow: 14px 19px 46px 8px rgba(0, 0, 0, 0.75);
+}
+
+.caja3:hover{
+    transform: scale(1.1);
+    background-color: aquamarine;
+   transition: all 0.8s;
+}
+
+.parrafo:hover{
+    background-color: rgb(129, 63, 63);
+    transform: scale(1);
+    transition: all 0.8s;
+
+}
+
+.encuesta:hover{
+    transition: all 0.8s;
+    font-size: 24px;
+
+}
+
+.padre img:hover{
+    border-radius: 100%;
+}
+
+
+.info:hover{
+    opacity: 1;
+    background-color: #929292;
+    transition: all 0.8s;
+
+
+}
+
+.contenedor h1{
+    position: sticky;
+    top:0%;
+    opacity: 0.8;
+
+}
+
+
+@media (width< 650px){
+    .contacto{
+        display: flex;
+        justify-content: center;
+       flex-direction: column;
+
+    }
+    .caja {
+        column-count: 1;
+        display: flex;
+        width: fit-content;
+    height: fit-content;
+
+    }
+    .caja li{
+       font-size: 20px;
+    }
+
+    .padre{
+        flex-direction: column;
+
+    }
+
+
+}
+
+
+
